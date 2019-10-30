@@ -22,6 +22,9 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'heroku_645e15d9ebab7c2' );
 
+define('WP_HOME','https://malaivictorecommerce.herokuapp.com');
+define('WP_SITEURL','https://malaivictorecommerce.herokuapp.com');
+
 /** MySQL database username */
 define( 'DB_USER', 'be56d4e50e42de' );
 
