@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'heroku_645e15d9ebab7c2' );
+define( 'DB_NAME', 'heroku_db13a2f9247dd20' );
 
 define('WP_HOME','https://malaivictorecommerce.herokuapp.com');
 define('WP_SITEURL','https://malaivictorecommerce.herokuapp.com');
 
 /** MySQL database username */
-define( 'DB_USER', 'be56d4e50e42de' );
+define( 'DB_USER', 'b54531bb8c7408' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'f8931ca9' );
+define( 'DB_PASSWORD', '630fa123' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'eu-cdbr-west-02.cleardb.net' );
