@@ -1,0 +1,228 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+.header {
+	position: relative;
+	padding: 0;
+	z-index: 20;
+}
+
+.header-fullwidth {
+	@include media-breakpoint-up(xl) {
+		.container,
+		.head-mast-container {
+			width: 1600px;
+		}
+	}
+}
+
+.site-logo {
+	font-size: 34px;
+	margin: 0;
+	font-weight: 700;
+	line-height: 1;
+
+	@include media-breakpoint-down(md) {
+		font-size: 26px;
+	}
+
+	a {
+		color: $white;
+	}
+}
+
+.site-tagline {
+	font-size: 14px;
+	margin: 0;
+	color: $secondary-text-color;
+	line-height: normal;
+
+	@include media-breakpoint-down(md) {
+		display: none;
+	}
+}
+
+.head-mast {
+	background-color: $darker-background;
+	padding: 30px 0;
+	color: $white;
+
+	@include media-breakpoint-down(md) {
+		padding: 15px 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0;
+	}
+}
+
+.head-nav {
+	background-color: $dark-background;
+}
+
+/* Header search form
+=================================== */
+.category-search-form {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	position: relative;
+}
+
+.category-search-select {
+	max-width: 178px;
+	height: 100%;
+	background-color: $grey;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+	color: $text-color-dark;
+	font-size: 14px;
+	border-radius: $border-radius-base 0 0 $border-radius-base;
+	border: 0;
+
+	@include media-breakpoint-down(md) {
+		display: none;
+	}
+}
+
+.category-search-input-wrap {
+	height: 100%;
+	flex: auto;
+	position: relative;
+}
+
+.category-search-input {
+	height: 100%;
+	border: 0;
+	font-size: 14px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+
+	@include media-breakpoint-up(lg) {
+		border-radius: 0;
+	}
+}
+
+.category-search-spinner {
+	@include spinner($color: $secondary-text-color, $size: 24px, $border-size: 4px);
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	opacity: 0;
+	transition: opacity .18s ease;
+
+	&.visible {
+		opacity: 1;
+	}
+}
+
+.category-search-results {
+	position: absolute;
+	list-style: none;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background: $white;
+	border-radius: 0 0 $border-radius-base $border-radius-base;
+	margin: 1px 0 0;
+	border-top: 1px solid rgba($white, .3);
+	padding: 10px 0;
+	box-shadow: 0 3px 6px rgba($black, .1);
+	z-index: 25;
+	display: none;
+}
+
+.category-search-results-item {
+	margin: 0;
+
+	a {
+		padding: 7px 15px;
+		display: block;
+		color: $text-color-dark;
+
+		&:hover {
+			background-color: $grey;
+		}
+	}
+
+	&.highlighted {
+		a {
+			background-color: $grey;
+		}
+	}
+
+	&.error {
+		a {
+			color: $red;
+		}
+	}
+}
+
+button.category-search-btn {
+	width: 40px;
+	height: 100%;
+	flex: none;
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0 $border-radius-base $border-radius-base 0;
+	border: 0;
+}
+
+.head-mast-container {
+	@include make-container;
+	@include make-container-max-widths;
+
+	@include media-breakpoint-down(sm) {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+.head-mast-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	@include media-breakpoint-up(md) {
+		@include make-row;
+	}
+}
+
+.header-branding-wrap {
+	@include media-breakpoint-up(xl) {
+		@include make-col(2);
+	}
+
+	@include media-breakpoint-up(md) {
+		@include make-col-ready;
+		@include make-col(4);
+	}
+
+	@include media-breakpoint-down(md) {
+		display: flex;
+		align-items: center;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 15px;
+	}
+}
+
+.head-search-form-wrap {
+	@include media-breakpoint-up(xl) {
+		@include make-col(10);
+	}
+
+	@include media-breakpoint-up(md) {
+		@include make-col-ready;
+		@include make-col(8);
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 15px 15px;
+		width: 100%;
+		flex: none;
+		background-color: $dark-background;
+	}
+}

@@ -1,0 +1,41 @@
+$filename: source-sans-pro-v11-greek_greek-ext_cyrillic-ext_latin-ext_cyrillic_vietnamese_latin;
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+       url('../fonts/#{$filename}-regular.woff2') format('woff2'),
+       url('../fonts/#{$filename}-regular.woff') format('woff'),
+       url('../fonts/#{$filename}-regular.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'),
+       url('../fonts/#{$filename}-italic.woff2') format('woff2'),
+       url('../fonts/#{$filename}-italic.woff') format('woff'),
+       url('../fonts/#{$filename}-italic.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+       url('../fonts/#{$filename}-600.woff2') format('woff2'),
+       url('../fonts/#{$filename}-600.woff') format('woff'),
+       url('../fonts/#{$filename}-600.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+       url('../fonts/#{$filename}-700.woff2') format('woff2'),
+       url('../fonts/#{$filename}-700.woff') format('woff'),
+       url('../fonts/#{$filename}-700.ttf') format('truetype'),
+}

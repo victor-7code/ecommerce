@@ -1,0 +1,78 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = /usr/local/var/www/wordpress/wp-content/uploads/2019/10/demo-content-import-file_2019-10-23__14-35-09.xml
+Widget file = /usr/local/var/www/wordpress/wp-content/uploads/2019/10/demo-widgets-import-file_2019-10-23__14-35-09.json
+Customizer file = /usr/local/var/www/wordpress/wp-content/uploads/2019/10/demo-customizer-import-file_2019-10-23__14-35-09.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog : 
+
+Search - No Title - Widget already exists
+Theme - Latest Posts - Latest Posts - Imported
+Categories - Categories - Imported
+Theme - Social Icons - Elsewhere - Imported
+Text - No Title - Imported
+Products - New Arrivals - Imported
+
+Front Page : 
+
+Theme (home) - WooCommerce Categories - Recommended categories for you - Imported
+Theme (home) - Latest Products - Recommendations for you - Imported
+Theme (home) - WooCommerce Categories - No Title - Imported
+Theme (home) - Latest Products - Top products this month - Imported
+Theme (home) - WooCommerce Categories - No Title - Imported
+
+Shop : 
+
+Filter Products by Price - Filter by price - Imported
+Product Categories - Product categories - Imported
+Filter Products by Attribute - Brands - Imported
+Text - No Title - Imported
+Products - Featured Products - Imported
+Recent Viewed Products - Recently Viewed Products - Imported
+
+Pre-footer : 
+
+Theme - Newsletter - Our Newsletter - Imported
+
+Footer - 1st column : 
+
+Text - No Title - Imported
+
+Footer - 2nd column : 
+
+Navigation Menu - Quick Menu - Imported
+
+Footer - 3rd column : 
+
+Products - On Sale - Imported
+
+Footer - 4th column : 
+
+Text - Physical Store Opening Hours - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

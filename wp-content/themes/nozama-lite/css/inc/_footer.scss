@@ -1,0 +1,40 @@
+/* -----------------------------------------
+	06. Footer
+----------------------------------------- */
+.footer {
+	color: $white;
+}
+
+.footer-fullwidth {
+	@include media-breakpoint-up(xl) {
+		.container {
+			width: 1600px;
+		}
+	}
+}
+
+.footer-widgets {
+	background-color: $dark-background;
+	padding: $section-padding-lg 0 $section-padding-lg - $widget-margin-lg;
+	font-size: 14px;
+	line-height: 1.65;
+
+	@include media-breakpoint-down(md) {
+		padding: $section-padding-md 0 $section-padding-md - $widget-margin-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: $section-padding-sm 0 $section-padding-sm - $widget-margin-sm;
+	}
+}
+
+.footer-info {
+	padding: 10px 0;
+	font-size: 14px;
+	background-color: $darker-background;
+	color: $white;
+}
+
+.footer-copy {
+	margin-bottom: 0;
+}

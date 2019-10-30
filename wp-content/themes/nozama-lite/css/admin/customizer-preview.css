@@ -1,0 +1,24 @@
+.customize-partial-edit-shortcut-theme_header_top_bar button {
+	left: 0;
+}
+
+.customize-partial-edit-shortcut-theme_footer_layout button {
+	left: 0;
+	top: -15px;
+}
+
+.customize-partial-edit-shortcut-footer_bottom_bar button {
+	left: 0;
+}
+
+.customize-partial-edit-shortcut-theme_hero {
+	z-index: 20;
+}
+
+.customize-partial-edit-shortcut-theme_hero button {
+	left: 0;
+}
+
+section > span.customize-partial-edit-shortcut > button {
+	left: 0;
+}

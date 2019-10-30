@@ -1,0 +1,359 @@
+@-webkit-keyframes rot {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rot {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Normalization
+--------------------------------------------------------------*/
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body {
+  font-family: sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+ul,
+ol {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.entry-content caption,
+.entry-content th,
+.entry-content td,
+.comment-content caption,
+.comment-content th,
+.comment-content td {
+  text-align: right;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.category-search-select {
+  border-radius: 0 3px 3px 0;
+}
+
+.category-search-input {
+  border-radius: 0 3px 3px 0;
+}
+
+button.category-search-btn {
+  border-radius: 3px 0 0 3px;
+}
+
+.mobile-nav-trigger {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/*--------------------------------------------------------------
+# Main Navigation
+--------------------------------------------------------------*/
+
+.navigation-main > li > ul::before {
+  right: 15px;
+}
+
+.navigation-main a .fas {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.navigation-main .menu-item-has-children > a::after {
+  right: auto;
+  left: -5px;
+}
+
+.navigation-main li .menu-item-has-children > a::after,
+.navigation-main li .page_item_has_children > a::after {
+  left: auto;
+}
+
+.navigation-secondary {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+
+.page-hero-slideshow-nav {
+  right: auto;
+  left: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.page-hero-slideshow-nav .slick-prev {
+  left: auto;
+  right: 15px;
+}
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+
+.row-slider-nav {
+  padding-left: 0;
+  padding-right: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.item-media .item-thumb {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.entry-meta-item.entry-sticky::before {
+  display: none;
+}
+
+.entry-meta-item.entry-sticky::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: .7em;
+  position: relative;
+  top: -1px;
+}
+
+.entry-author-thumbnail {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.section-title a {
+  margin-right: 5px;
+}
+
+.bypostauthor > article .fn::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin: 0 -2px 0 2px;
+  position: relative;
+  top: -1px;
+  font-size: 11px;
+}
+
+.comment-author .avatar {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+.comment-reply-link {
+  margin-left: 0;
+  margin-right: 94px;
+}
+
+.gallery-caption {
+  text-align: right;
+}
+
+.entry-content blockquote {
+  padding-left: 0;
+  padding-right: 35px;
+}
+
+.entry-content blockquote::before {
+  left: auto;
+  right: -10px;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.searchform .searchsubmit {
+  right: auto;
+  left: 0;
+}
+
+.widget_meta li > .count,
+.widget_meta li > .ci-count,
+.widget_pages li > .count,
+.widget_pages li > .ci-count,
+.widget_categories li > .count,
+.widget_categories li > .ci-count,
+.widget_archive li > .count,
+.widget_archive li > .ci-count,
+.widget_nav_menu li > .count,
+.widget_nav_menu li > .ci-count,
+.widget_recent_entries li > .count,
+.widget_recent_entries li > .ci-count,
+.widget_product_categories li > .count,
+.widget_product_categories li > .ci-count,
+.widget_layered_nav li > .count,
+.widget_layered_nav li > .ci-count,
+.widget_rating_filter li > .count,
+.widget_rating_filter li > .ci-count {
+  right: auto;
+  left: 0;
+}
+
+.widget-newsletter-content-wrap [class^="fa"],
+.widget-newsletter-content-wrap [class^="fa"] {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# WooCommerce Specific
+--------------------------------------------------------------*/
+
+.woocommerce-Reviews .star-rating {
+  float: left;
+}
+
+.shop-filter-toggle {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.widget_shopping_cart .buttons .button {
+  margin: 0 5px 0;
+}
+
+.reset_variations {
+  left: auto;
+  right: 100%;
+  margin: 0 5px 0 0;
+}
+
+.woocommerce-grouped-product-list-item__price {
+  text-align: left;
+}
+
+.group_table .quantity {
+  margin: 0 0 0 10px;
+}
+
+.quantity label {
+  margin: 0 0 0 10px;
+}
+
+.woocommerce-shipping-fields .woocommerce-form__label-for-checkbox input {
+  margin: 0 0 0 10px;
+}
+
+@media (min-width: 992px) {
+  .category-search-input {
+    border-radius: 0;
+  }
+
+  .footer-copy {
+    text-align: right !important;
+  }
+
+  .footer-info-addons {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 1350px) {
+  .navigation-main > .menu-item-first {
+    margin-right: 0;
+    margin-left: 75px;
+  }
+
+  .sidebar {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  .flex-row-reverse .sidebar {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .entry-author-thumbnail {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .head-mini-cart-wrap {
+    right: auto;
+    left: 15px;
+  }
+
+  .item-media .item-thumb {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  .entry-author-thumbnail {
+    margin: 0 0 10px;
+  }
+}

@@ -1,0 +1,84 @@
+/* -----------------------------------------
+	10. Mobile menu
+----------------------------------------- */
+.mm-page {
+  position: static;
+}
+
+.mm-opened {
+  .mm-page {
+    position: relative;
+  }
+}
+
+.mm-listview {
+	> li {
+		&.fas,
+		&.far,
+		&.fab {
+			font-family: $primary-font;
+			font-weight: normal;
+			line-height: 1;
+			position: relative;
+			padding-left: 20px;
+			display: block;
+
+			&::before {
+				font-size: 0.85em;
+				position: absolute;
+				top: 47%;
+				transform: translateY(-50%);
+			}
+		}
+
+		&.fas {
+			&::before {
+				font-family: $font-awesome;
+				font-weight: 900;
+			}
+		}
+
+		&.far {
+			&::before {
+				font-family: $font-awesome;
+				font-weight: 400;
+			}
+		}
+
+		&.fab {
+			&::before {
+				font-family: $font-awesome-brands;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+#mobilemenu {
+	display: none;
+
+	@include media-breakpoint-down(md) {
+		display: block;
+	}
+}
+
+.mobile-nav-trigger {
+	text-transform: uppercase;
+	display: none;
+	width: 40px;
+	height: 40px;
+	border: 1px solid $border-on-dark;
+	border-radius: $border-radius-base;
+	align-items: center;
+	justify-content: center;
+	color: inherit;
+	margin-right: 10px;
+
+	&:hover {
+		color: inherit;
+	}
+
+	@include media-breakpoint-down(md) {
+		display: inline-flex;
+	}
+}

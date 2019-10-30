@@ -1,0 +1,1406 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Nozama Lite\n"
+"POT-Creation-Date: 2019-05-08 22:58+0300\n"
+"PO-Revision-Date: 2015-10-10 19:53+0300\n"
+"Last-Translator: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"Language-Team: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: plugins\n"
+
+#: 404.php:13 inc/customizer/options/theme-titles-general.php:23
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:40
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:41
+msgid "Main Menu - Right"
+msgstr ""
+
+#: functions.php:247
+msgid "Intro text (big text)"
+msgstr ""
+
+#: functions.php:253
+msgid "2 Column Text"
+msgstr ""
+
+#: functions.php:279
+msgid "Featured Image Visibility"
+msgstr ""
+
+#: functions.php:299
+msgid "Hide when viewing this post's page"
+msgstr ""
+
+#. translators: %s is an author's name.
+#: functions.php:412
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: inc/custom-fields-page.php:7
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:33
+msgid "Slider"
+msgstr ""
+
+#: inc/custom-fields-page.php:36
+msgid ""
+"You can select a MaxSlider slideshow to display on your front page. If you "
+"choose a slideshow, it will be displayed instead of the image that you "
+"have set on \"Hero section\"."
+msgstr ""
+
+#: inc/custom-fields-page.php:39
+msgid "MaxSlider Slideshow:"
+msgstr ""
+
+#: inc/custom-fields-page.php:49
+msgid "Disable Slideshow"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Nozama Pro"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer.php:38
+msgctxt "customizer section title"
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:43
+msgctxt "customizer section title"
+msgid "Header style"
+msgstr ""
+
+#: inc/customizer.php:50
+msgctxt "customizer section title"
+msgid "Primary menu bar"
+msgstr ""
+
+#: inc/customizer.php:61
+msgctxt "customizer section title"
+msgid "Blog settings"
+msgstr ""
+
+#: inc/customizer.php:66
+msgctxt "customizer section title"
+msgid "Archive options"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid ""
+"Customize the default archive pages, such as the blog, category, tag, date "
+"archives, etc."
+msgstr ""
+
+#: inc/customizer.php:74
+msgctxt "customizer section title"
+msgid "Post options"
+msgstr ""
+
+#: inc/customizer.php:85
+msgctxt "customizer section title"
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:91
+msgctxt "customizer section title"
+msgid "Global"
+msgstr ""
+
+#: inc/customizer.php:102
+msgctxt "customizer section title"
+msgid "Social Networks"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid ""
+"Enter your social network URLs. Leaving a URL empty will hide its "
+"respective icon."
+msgstr ""
+
+#: inc/customizer.php:114
+msgctxt "customizer section title"
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:119
+msgctxt "customizer section title"
+msgid "Footer style"
+msgstr ""
+
+#: inc/customizer.php:126
+msgctxt "customizer section title"
+msgid "Bottom bar"
+msgstr ""
+
+#: inc/customizer.php:138
+msgctxt "customizer section title"
+msgid "Titles"
+msgstr ""
+
+#: inc/customizer.php:143
+msgctxt "customizer section title"
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:150
+msgctxt "customizer section title"
+msgid "Posts"
+msgstr ""
+
+#: inc/customizer.php:161
+msgctxt "customizer section title"
+msgid "Other"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Other options affecting the whole site."
+msgstr ""
+
+#: inc/customizer.php:168
+msgctxt "customizer section title"
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/options/site-identity.php:23
+msgid "Limit logo size (for Retina display)"
+msgstr ""
+
+#: inc/customizer/options/site-identity.php:24
+msgid ""
+"This option will limit the image size to half its width. You will need to "
+"upload your image in 2x the dimension you want to display it in."
+msgstr ""
+
+#: inc/customizer/options/site-identity.php:38
+msgid "Show site title"
+msgstr ""
+
+#: inc/customizer/options/site-identity.php:49
+msgid "Show site tagline"
+msgstr ""
+
+#: inc/customizer/options/theme-archive-options.php:15
+msgid "Automatically generated excerpt length (in words)"
+msgstr ""
+
+#: inc/customizer/options/theme-archive-options.php:28
+msgid "Pagination method"
+msgstr ""
+
+#: inc/customizer/options/theme-archive-options.php:30
+msgctxt "pagination method"
+msgid "Numbered links"
+msgstr ""
+
+#: inc/customizer/options/theme-archive-options.php:31
+msgctxt "pagination method"
+msgid "\"Previous - Next\" links"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:11
+msgid "Main footer background color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:21
+msgid "Main footer text color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:31
+msgid "Main footer link color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:41
+msgid "Main footer border color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:51
+msgid "Bottom bar background color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:61
+msgid "Bottom bar text color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:71
+msgid "Bottom bar link color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-footer.php:81
+msgid "Widget titles text color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-global.php:20
+msgid "Link & Secondary Text Color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-global.php:30
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-global.php:40
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-global.php:50
+msgid "Text color secondary (darker)"
+msgstr ""
+
+#: inc/customizer/options/theme-colors-global.php:60
+msgid "Border color"
+msgstr ""
+
+#: inc/customizer/options/theme-footer-bottom-bar.php:10
+msgid "Show bottom bar"
+msgstr ""
+
+#: inc/customizer/options/theme-footer-bottom-bar.php:23
+msgid "Credits text"
+msgstr ""
+
+#: inc/customizer/options/theme-footer-bottom-bar.php:35
+msgid "Credits text (right)"
+msgstr ""
+
+#: inc/customizer/options/theme-footer-bottom-bar.php:47
+msgid "Payment card / method Icons"
+msgstr ""
+
+#. translators: %s is a URL
+#: inc/customizer/options/theme-footer-bottom-bar.php:49
+#, php-format
+msgid ""
+"Enter a comma-separated list of icon codes that you want displayed, e.g. "
+"<code>fa-cc-visa, fa-cc-mastercard</code>. Only icons from the \"Brands\" "
+"set can be displayed. A list of related icons <a href=\"%s\" target="
+"\"_blank\">can be found here."
+msgstr ""
+
+#: inc/customizer/options/theme-footer-style.php:10
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/options/theme-footer-style.php:22
+msgid "Full width footer"
+msgstr ""
+
+#: inc/customizer/options/theme-header-primary-menu.php:14
+msgid "Vertical padding (in pixels)"
+msgstr ""
+
+#: inc/customizer/options/theme-header-primary-menu.php:29
+msgid "Menu text size (in pixels)"
+msgstr ""
+
+#: inc/customizer/options/theme-header-style.php:10
+msgid "Full width header"
+msgstr ""
+
+#: inc/customizer/options/theme-other-google-fonts.php:9
+msgid "Serve Google Fonts locally."
+msgstr ""
+
+#: inc/customizer/options/theme-other-google-fonts.php:10
+msgid ""
+"When enabled, Google fonts will be served by your server instead from "
+"Google's CDN. You may need to enable this option for GDPR compliance."
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:9
+msgid "Show featured image"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:19
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:29
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:39
+msgid "Show comments"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:49
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:59
+msgid "Show tags"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:69
+msgid "Show author box"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:79
+msgid "Show related posts"
+msgstr ""
+
+#: inc/customizer/options/theme-post-options.php:90
+msgid "Enable lightbox for galleries"
+msgstr ""
+
+#: inc/customizer/options/theme-social.php:10
+msgid "Open social links in a new tab."
+msgstr ""
+
+#. translators: %s is a social network's name, e.g.: Facebook URL
+#: inc/customizer/options/theme-social.php:29
+#, php-format
+msgctxt "social network url"
+msgid "%s URL"
+msgstr ""
+
+#: inc/customizer/options/theme-social.php:41
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-general.php:3 index.php:9
+msgid "From the blog"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-general.php:9
+msgid "Blog title"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-general.php:13 search.php:13
+msgid "Search results"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-general.php:19
+msgid "Search title"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-general.php:29
+msgid "404 (not found) title"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-post.php:3
+#: template-parts/related.php:4
+msgid "Related articles"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-post.php:9
+msgid "Related posts title"
+msgstr ""
+
+#: inc/customizer/options/theme-titles-post.php:19
+msgid "Related posts subtitle"
+msgstr ""
+
+#: inc/helpers.php:6
+msgid "Facebook"
+msgstr ""
+
+#: inc/helpers.php:11
+msgid "Twitter"
+msgstr ""
+
+#: inc/helpers.php:16
+msgid "Instagram"
+msgstr ""
+
+#: inc/helpers.php:21
+msgid "Snapchat"
+msgstr ""
+
+#: inc/helpers.php:26
+msgid "Bloglovin"
+msgstr ""
+
+#: inc/helpers.php:31
+msgid "Pinterest"
+msgstr ""
+
+#: inc/helpers.php:36
+msgid "YouTube"
+msgstr ""
+
+#: inc/helpers.php:41
+msgid "Vimeo"
+msgstr ""
+
+#: inc/helpers.php:46
+msgid "Google Plus"
+msgstr ""
+
+#: inc/helpers.php:51
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/helpers.php:56
+msgid "Tumblr"
+msgstr ""
+
+#: inc/helpers.php:61
+msgid "Flickr"
+msgstr ""
+
+#: inc/helpers.php:66
+msgid "Dribbble"
+msgstr ""
+
+#: inc/helpers.php:71
+msgid "WordPress"
+msgstr ""
+
+#: inc/helpers.php:76
+msgid "500px"
+msgstr ""
+
+#: inc/helpers.php:81
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/helpers.php:86
+msgid "Spotify"
+msgstr ""
+
+#: inc/helpers.php:91
+msgid "Vine"
+msgstr ""
+
+#: inc/helpers.php:96
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/helpers.php:104
+msgid "Pages:"
+msgstr ""
+
+#: inc/onboarding.php:26
+msgid "Demo Import"
+msgstr ""
+
+#: inc/onboarding.php:63
+msgid "Nozama Lite is a powerful e-commerce theme for WordPress."
+msgstr ""
+
+#: inc/onboarding.php:66 inc/onboarding/onboarding-page.php:615
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/onboarding.php:67 inc/onboarding/onboarding-page.php:616
+msgid "Sample Content"
+msgstr ""
+
+#: inc/onboarding.php:68 inc/onboarding/onboarding-page.php:617
+msgid "Support"
+msgstr ""
+
+#: inc/onboarding.php:73
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/onboarding.php:74
+msgid "Sell anything, beautifully."
+msgstr ""
+
+#: inc/onboarding.php:77
+msgid "MaxSlider"
+msgstr ""
+
+#: inc/onboarding.php:78
+msgid "Add a custom responsive slider to any page of your website."
+msgstr ""
+
+#: inc/onboarding.php:81
+msgid "Elementor"
+msgstr ""
+
+#: inc/onboarding.php:82
+msgid "Elementor is a front-end drag & drop page builder for WordPress. "
+msgstr ""
+
+#: inc/onboarding.php:85 inc/onboarding/onboarding-page.php:340
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/onboarding.php:86
+msgid "Import your demo content, widgets and theme settings with one click."
+msgstr ""
+
+#. translators: %1$s is the theme name. %2$s URL to onboarding page.
+#: inc/onboarding/onboarding-page.php:146
+#, php-format
+msgid ""
+"Welcome to %1$s. Check out the <a href=\"%2$s\">onboarding page</a> to get "
+"things started."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:205
+msgid "Activating"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:206
+msgid "Activate"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:207
+msgid "Installing..."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:293
+msgid "The following plugins are required. Please install and activate them."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:296
+#: inc/onboarding/onboarding-page.php:321
+msgid ""
+"You do not have sufficient permissions to install plugins, please contact "
+"your administrator."
+msgstr ""
+
+#. translators: %s is the theme's name.
+#: inc/onboarding/onboarding-page.php:317
+#, php-format
+msgid ""
+"The following plugins are not required but they will provide additional "
+"functionality to %s."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:342
+msgid "Import our sample content."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:347
+msgid "Please note:"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:348
+msgid ""
+"You need to install and activate One Click Demo Import before proceeding."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:349
+msgid "Click here to do it now."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:355
+msgid "Good to go!"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:356
+msgid ""
+"Now you can import the sample content and have your theme set up like the "
+"demo using the One Click Demo Import Plugin."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:357
+msgid "Get Started"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:375
+msgid "Here are a few useful links to get you started."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:428
+#: inc/onboarding/onboarding-page.php:457
+#, php-format
+msgid "The %s plugin was not found, click to install and activate."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:431
+#: inc/onboarding/onboarding-page.php:460
+msgid "Install &amp; activate "
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:486
+#, php-format
+msgid "The %s plugin is installed but not active, click to activate."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:489
+msgid "Activate "
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:507
+#, php-format
+msgid "%s is installed and activated."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:565
+msgid ""
+"You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+
+#. translators: %s is a URL.
+#: inc/onboarding/onboarding-page.php:579
+#, php-format
+msgid "Installing Plugin from URL: %s"
+msgstr ""
+
+#. translators: %s is the theme name.
+#: inc/onboarding/onboarding-page.php:596
+#: inc/onboarding/onboarding-page.php:599
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:601
+msgid "Welcome to :theme_name:! - Version :theme_version:"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:614
+msgid "Required Plugins"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:652
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:653
+msgid ""
+"If you don't want to import our demo sample content, just visit this page "
+"and learn how to set things up individually."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:657
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:658
+msgid ""
+"Browse our library of step by step how-to articles, tutorials, and guides "
+"to get quick answers."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:662
+msgid "Request Support"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:663
+msgid ""
+"Got stuck? No worries, just visit our support page, submit your ticket and "
+"we will be there for you within 24 hours."
+msgstr ""
+
+#: inc/sanitization.php:77 inc/sanitization.php:112
+msgid "Left"
+msgstr ""
+
+#: inc/sanitization.php:78 inc/sanitization.php:113 inc/sanitization.php:130
+msgid "Center"
+msgstr ""
+
+#: inc/sanitization.php:79 inc/sanitization.php:114
+msgid "Right"
+msgstr ""
+
+#: inc/sanitization.php:94
+msgid "No repeat"
+msgstr ""
+
+#: inc/sanitization.php:95
+msgid "Tile"
+msgstr ""
+
+#: inc/sanitization.php:96
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/sanitization.php:97
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/sanitization.php:129
+msgid "Top"
+msgstr ""
+
+#: inc/sanitization.php:131
+msgid "Bottom"
+msgstr ""
+
+#: inc/sanitization.php:146
+msgid "Scroll"
+msgstr ""
+
+#: inc/sanitization.php:147
+msgid "Fixed"
+msgstr ""
+
+#: inc/sanitization.php:238
+msgid "4 Columns"
+msgstr ""
+
+#: inc/sanitization.php:239
+msgid "3 Columns"
+msgstr ""
+
+#: inc/sanitization.php:240
+msgid "2 Columns"
+msgstr ""
+
+#: inc/sanitization.php:241
+msgid "1 Column"
+msgstr ""
+
+#: inc/sanitization.php:242
+msgid "1/4 - 3/4 Columns"
+msgstr ""
+
+#: inc/sanitization.php:243
+msgid "3/4 - 1/4 Columns"
+msgstr ""
+
+#: inc/sanitization.php:244
+msgid "1/4 - 1/4 - 1/2 Columns"
+msgstr ""
+
+#: inc/sanitization.php:245
+msgid "1/2 - 1/4 - 1/4 Columns"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Source Sans Pro, translate this to 'off'. Do not translate into your own language.
+#: inc/scripts-styles.php:15
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/scripts-styles.php:69
+msgid "Select file"
+msgstr ""
+
+#: inc/scripts-styles.php:70
+msgid "Select files"
+msgstr ""
+
+#: inc/scripts-styles.php:71
+msgid "Use this file"
+msgstr ""
+
+#: inc/scripts-styles.php:72
+msgid "Use these files"
+msgstr ""
+
+#: inc/scripts-styles.php:73
+msgid "Update gallery"
+msgstr ""
+
+#: inc/scripts-styles.php:74
+msgid "Loading..."
+msgstr ""
+
+#: inc/scripts-styles.php:75
+msgid "Gallery preview not available."
+msgstr ""
+
+#: inc/scripts-styles.php:76
+msgid "Remove image"
+msgstr ""
+
+#: inc/scripts-styles.php:77
+msgid "Remove from gallery"
+msgstr ""
+
+#: inc/sidebars-widgets.php:11
+msgid "Blog"
+msgstr ""
+
+#: inc/sidebars-widgets.php:13
+msgid "Widgets added here will appear on the blog section."
+msgstr ""
+
+#: inc/sidebars-widgets.php:21
+msgid "Page"
+msgstr ""
+
+#: inc/sidebars-widgets.php:23
+msgid "Widgets added here will appear on the static pages."
+msgstr ""
+
+#: inc/sidebars-widgets.php:31
+msgid "Front Page"
+msgstr ""
+
+#: inc/sidebars-widgets.php:33
+msgid ""
+"These widgets appear on pages that have the \"Front page\" template "
+"assigned."
+msgstr ""
+
+#: inc/sidebars-widgets.php:41
+msgid "Shop"
+msgstr ""
+
+#: inc/sidebars-widgets.php:43
+msgid "These widgets appear on shop-related pages."
+msgstr ""
+
+#: inc/sidebars-widgets.php:51
+msgid "Pre-footer"
+msgstr ""
+
+#: inc/sidebars-widgets.php:53
+msgid "Full width widget area, built to house the Theme - Newsletter widget."
+msgstr ""
+
+#: inc/sidebars-widgets.php:61
+msgid "Footer - 1st column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:63
+msgid "Widgets added here will appear on the first footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:70
+msgid "Footer - 2nd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:72
+msgid "Widgets added here will appear on the second footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:79
+msgid "Footer - 3rd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:81
+msgid "Widgets added here will appear on the third footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:88
+msgid "Footer - 4th column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:90
+msgid "Widgets added here will appear on the fourth footer column."
+msgstr ""
+
+#. translators: %s is a URL.
+#: inc/template-tags.php:162
+#, php-format
+msgid "Powered by <a href=\"%s\">WordPress</a>"
+msgstr ""
+
+#. translators: %s is a URL.
+#: inc/template-tags.php:168
+#, php-format
+msgid "A theme by <a href=\"%s\">CSSIgniter</a>"
+msgstr ""
+
+#. translators: %1$s is a URL. %2$s is the current site's name/title.
+#: inc/template-tags.php:173
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: inc/template-tags.php:222
+msgid "Menu"
+msgstr ""
+
+#: inc/template-tags.php:239
+msgid "Category name"
+msgstr ""
+
+#: inc/template-tags.php:244
+msgid "Search all categories"
+msgstr ""
+
+#: inc/template-tags.php:257
+msgid "Search text"
+msgstr ""
+
+#: inc/template-tags.php:263
+msgid "What are you looking for?"
+msgstr ""
+
+#: inc/template-tags.php:280 searchform.php:5
+#: woocommerce/product-searchform.php:28
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:454
+msgid "Featured"
+msgstr ""
+
+#. translators: %s is the author's name.
+#: inc/template-tags.php:501
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:521
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:652
+msgctxt "previous post"
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:653
+msgctxt "next post"
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:654
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:24
+msgid ""
+"Homepage widget. Displays your latest Instagram photos. Requires the "
+"plugin \"WP Instagram Widget\" to be active."
+msgstr ""
+
+#: inc/widgets/home-instagram.php:26
+msgid "Theme (home) - Instagram"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:173
+#: inc/widgets/home-latest-products.php:141
+#: inc/widgets/home-woocommerce-categories.php:116
+#: inc/widgets/latest-posts.php:110 inc/widgets/newsletter.php:123
+#: inc/widgets/socials.php:46
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:174
+msgid "Username:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:175
+msgid "Number of photos:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:178
+msgid "Open links in:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:181
+msgid "Current window"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:182
+msgid "New window"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:190
+msgid "Link text:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:193 inc/widgets/newsletter.php:130
+msgid "Customize"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:195
+msgid "Overlay Color:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:196 inc/widgets/newsletter.php:132
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:198 inc/widgets/newsletter.php:134
+msgid "Background Image:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:198 inc/widgets/newsletter.php:134
+msgid "Select"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:200 inc/widgets/newsletter.php:136
+msgid "Background Repeat:"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:202 inc/widgets/newsletter.php:138
+msgid "Repeat"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:203 inc/widgets/newsletter.php:139
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:204 inc/widgets/newsletter.php:140
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:205 inc/widgets/newsletter.php:141
+msgid "No Repeat"
+msgstr ""
+
+#: inc/widgets/home-instagram.php:208 inc/widgets/newsletter.php:144
+msgid ""
+"Stretch background image to cover the entire width (requires a background "
+"image)."
+msgstr ""
+
+#: inc/widgets/home-instagram.php:210
+msgid "Parallax effect (requires a background image)."
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:16
+msgid ""
+"Homepage widget. Displays a number of the latest (or random) products, "
+"optionally from a specific category."
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:18
+msgid "Theme (home) - Latest Products"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:75
+msgid "See More"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:136
+#: inc/widgets/home-woocommerce-categories.php:111
+msgid ""
+"This widget requires that <strong>WooCommerce</strong> is installed and "
+"active."
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:142
+#: inc/widgets/home-woocommerce-categories.php:117
+#: inc/widgets/newsletter.php:124
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:144
+msgid "Category to display the latest products from (optional):"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:160
+msgid "Order by:"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:168 inc/widgets/latest-posts.php:128
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:171
+msgid "Output Columns:"
+msgstr ""
+
+#. translators: %d is a number of columns.
+#: inc/widgets/home-latest-products.php:180
+#, php-format
+msgid "%d Column"
+msgid_plural "%d Columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/home-latest-products.php:193
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:194
+msgid "Rating"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:195
+msgid "Popularity"
+msgstr ""
+
+#: inc/widgets/home-latest-products.php:196
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:14
+msgid ""
+"Homepage widget. Displays a hand-picked selection of WooCommerce "
+"categories."
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:16
+msgid "Theme (home) - WooCommerce Categories"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:120
+msgid "Layout:"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:129
+msgid ""
+"Add as many items as you want by pressing the \"Add Item\" button. Remove "
+"any item by selecting \"Remove me\"."
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:138
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:154
+#: inc/widgets/home-woocommerce-categories.php:181
+msgid "Remove me"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:166
+msgid "Item:"
+msgstr ""
+
+#: inc/widgets/home-woocommerce-categories.php:184
+msgid "Add Item"
+msgstr ""
+
+#. translators: %1$d is a layout number. %2$d is the number of categories the layout requires.
+#: inc/widgets/home-woocommerce-categories.php:217
+#, php-format
+msgid "Layout #%1$d (%2$d category)"
+msgid_plural "Layout #%1$d (%2$d categories)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/latest-posts.php:16
+msgid ""
+"Displays a number of the latest (or random) posts from a specific post "
+"type."
+msgstr ""
+
+#: inc/widgets/latest-posts.php:18
+msgid "Theme - Latest Posts"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:112
+msgid "Category to display the latest posts from (optional):"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:127
+msgid "Show random posts."
+msgstr ""
+
+#: inc/widgets/newsletter.php:17
+msgid "Displays a newsletter subscription form."
+msgstr ""
+
+#: inc/widgets/newsletter.php:19
+msgid "Theme - Newsletter"
+msgstr ""
+
+#: inc/widgets/newsletter.php:81
+msgid "Your email"
+msgstr ""
+
+#: inc/widgets/newsletter.php:82
+msgid "Your email address"
+msgstr ""
+
+#: inc/widgets/newsletter.php:83
+msgid "Sign Up Today!"
+msgstr ""
+
+#: inc/widgets/newsletter.php:126
+msgid "Form email field name attribute:"
+msgstr ""
+
+#: inc/widgets/newsletter.php:127
+msgid "Form Action URL:"
+msgstr ""
+
+#: inc/widgets/socials.php:11
+msgid "Displays the site's social icons."
+msgstr ""
+
+#: inc/widgets/socials.php:13
+msgid "Theme - Social Icons"
+msgstr ""
+
+#: inc/widgets/socials.php:47
+msgid ""
+"This widget displays your site's social icons. In order to set them up, "
+"you need to visit <strong>Appearance > Customize > Social Networks</"
+"strong> and provide the appropriate URLs where desired."
+msgstr ""
+
+#: inc/woocommerce.php:155
+msgid "View:"
+msgstr ""
+
+#: inc/woocommerce.php:159
+msgid "All"
+msgstr ""
+
+#: inc/woocommerce.php:310
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d is the number of search results.
+#: search.php:18
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchform.php:3 woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "search box placeholder"
+msgid "Search"
+msgstr ""
+
+#. translators: There is a space at the end.
+#: single.php:34
+msgid "Tags: "
+msgstr ""
+
+#: template-parts/article-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s is a URL.
+#: template-parts/article-none.php:11
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/article-none.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/article-none.php:21
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/categories/item-lg.php:26
+#: template-parts/categories/item-long.php:26
+#: template-parts/categories/item-md.php:26
+#: template-parts/categories/item-xl.php:26
+msgid "Shop now"
+msgstr ""
+
+#: template-parts/item-media-post.php:23 template-parts/item-media.php:13
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:86
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:94
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/content-widget-reviews.php:35
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:41
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:50
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:46
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:30
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/stock.php:25
+msgid "Availability:"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:30
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Nozama Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.cssigniter.com/themes/nozama-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An E-Commerce theme for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.cssigniter.com/"
+msgstr ""

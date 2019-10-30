@@ -1,0 +1,403 @@
+/* -----------------------------------------
+	08. Widgets Styling
+----------------------------------------- */
+.sidebar {
+	@include media-breakpoint-up(xl) {
+		margin-left: 30px;
+
+		.flex-row-reverse & {
+			margin-left: 0;
+			margin-right: 30px;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		padding: 0;
+		margin-top: 60px;
+	}
+}
+
+.widget {
+	margin: 0 0 $widget-margin-lg;
+
+	@include media-breakpoint-down(md) {
+		margin-bottom: $widget-margin-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		margin-bottom: $widget-margin-sm;
+	}
+
+	/* Nullify bottom margin for last elements in widgets and sidebars */
+	.sidebar & {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	select {
+		width: 100%;
+	}
+}
+
+.widget-title {
+	font-size: 18px;
+	margin-bottom: 15px;
+
+	label {
+		text-transform: none;
+		display: block;
+		font-size: inherit;
+		margin: 0;
+		line-height: inherit;
+		font-weight: inherit;
+	}
+}
+
+/* WIDGET: #Widget - Home Newsletter
+========================================= */
+.widget_ci-home-newsletter {
+	padding: 0;
+	background-color: $darker-background;
+
+	@include media-breakpoint-down(md) {
+		padding: 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0;
+	}
+}
+
+.widget-newsletter-wrap {
+	padding: 30px 0;
+}
+
+.widget-newsletter-content-wrap {
+	display: flex;
+	align-items: center;
+
+	.fas,
+	.far {
+		color: $accent-color;
+		font-size: 38px;
+		line-height: 1;
+		flex: none;
+		margin-right: 15px;
+	}
+}
+
+.widget-newsletter-content {
+	line-height: normal;
+	color: $secondary-text-color;
+
+	h2 {
+		color: $white;
+		margin-bottom: 0;
+		font-weight: 900;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.widget-newsletter-form {
+	position: relative;
+	height: 40px;
+
+	@include media-breakpoint-down(md) {
+		margin-top: 20px;
+	}
+
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		padding: 0 25px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	input[type="email"] {
+		height: 100%;
+	}
+}
+
+/* WIDGET: #List Widgets
+========================================= */
+.widget_meta,
+.widget_pages,
+.widget_categories,
+.widget_archive,
+.widget_nav_menu,
+.widget_product_categories,
+.widget_layered_nav,
+.widget_rating_filter {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			margin-left: 15px;
+		}
+	}
+
+	li {
+		line-height: normal;
+		display: block;
+		position: relative;
+
+		a {
+			display: block;
+			padding: 10px 0;
+			color: $text-color-dark;
+			border-bottom: 1px solid $border-color;
+			letter-spacing: -.01em;
+
+			.footer-widgets & {
+				color: $white;
+				border-bottom-color: $border-on-dark;
+			}
+
+			&:hover {
+				color: $accent-color;
+			}
+		}
+
+		> .count,
+		> .ci-count {
+			position: absolute;
+			right: 0;
+			top: 6px;
+			font-size: 14px;
+			padding: 4px 3px;
+		}
+	}
+}
+
+.widget_recent_entries,
+.widget_recent_comments,
+.widget_rss {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		padding: 11px 0;
+		border-bottom: 1px solid $border-color;
+
+		.footer-widgets & {
+			border-color: $border-on-dark;
+		}
+	}
+
+	a {
+		color: $text-color-dark;
+
+		.footer-widgets & {
+			color: $white;
+		}
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}
+
+.widget_recent_entries {
+	.post-date {
+		display: block;
+		font-size: 14px;
+		color: $text-color-light;
+
+		.footer-widgets & {
+			color: rgba($white, .7);
+		}
+	}
+}
+
+.rss-date {
+	display: block;
+	font-size: 14px;
+	margin: 3px 0;
+}
+
+.tag-cloud-link {
+	display: inline-block;
+	padding: 4px 14px;
+	font-size: 13px !important;
+	border-radius: $border-radius-base;
+	border: 1px solid $text-color;
+	color: $text-color;
+	margin-bottom: 3px;
+
+	&:hover {
+		border-color: $button-bg-color;
+		background-color: $button-bg-color;
+		color: $button-text-color;
+	}
+
+	.footer-widgets & {
+		border-color: $border-on-dark;
+		color: $white;
+	}
+}
+// sass-lint:enable class-name-format
+
+/* WIDGET: #Menu
+========================================= */
+.widget_nav_menu {
+	li {
+		&.fas,
+		&.far,
+		&.fab {
+			font-family: $primary-font;
+			font-weight: normal;
+			line-height: 1;
+			position: relative;
+
+			&:not(:first-child) {
+				margin-left: 10px;
+			}
+
+			> a {
+				margin-left: 0;
+				padding-left: 20px;
+			}
+
+			&::before {
+				position: absolute;
+				margin-right: 5px;
+				margin-top: -2px;
+				font-size: 0.85em;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+
+		&.fas {
+			&::before {
+				font-family: $font-awesome;
+				font-weight: 900;
+			}
+		}
+
+		&.far {
+			&::before {
+				font-family: $font-awesome;
+				font-weight: 400;
+			}
+		}
+
+		&.fab {
+			&::before {
+				font-family: $font-awesome-brands;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+/* WIDGET: #Search
+========================================= */
+.searchform {
+	> div {
+		position: relative;
+	}
+
+	input[type="text"],
+	input[type="search"] {
+		height: 40px;
+	}
+
+	.searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		padding: 0 15px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
+/* WIDGET: #Text Widget
+========================================= */
+.widget_text { // sass-lint:disable-line class-name-format
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* WIDGET: #Calendar
+================================================== */
+#wp-calendar {
+	width: 100%;
+
+	a {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	caption {
+		text-align: left;
+		margin-top: 10px;
+		background: none repeat scroll 0 0 rgba($black, .03);
+		padding: 9px;
+	}
+
+	thead {
+		font-size: 10px;
+
+		th {
+			background: rgba($black, .1);
+			font-weight: bold;
+			padding: 8px;
+		}
+	}
+
+	tbody {
+		td {
+			background: none;
+			border: 1px solid rgba($black, .1);
+			text-align: center;
+			padding: 3px;
+
+			&:hover {
+				background: rgba($black, .1);
+			}
+		}
+
+		.pad {
+			background: none;
+		}
+	}
+
+	tfoot {
+		#next {
+			font-size: 10px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		#prev {
+			font-size: 10px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+	}
+}

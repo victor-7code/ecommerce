@@ -1,0 +1,84 @@
+label[for^=widget-ci-] {
+  display: block;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+}
+
+fieldset.ci-collapsible {
+  margin-bottom: 10px;
+}
+
+fieldset.ci-collapsible legend {
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 5px 5px 10px;
+  color: #fff;
+  border-radius: 3px 3px 0 0;
+  background: #87e0fd;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87e0fd), color-stop(40%, #53cbf1), color-stop(100%, #05abe0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+  /* IE6-9 */
+}
+
+fieldset.ci-collapsible .elements {
+  padding-left: 10px;
+  background: #fff;
+  padding: 9px 12px 0 12px;
+  margin-bottom: 15px;
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+
+fieldset.ci-collapsible .elements p:first-child {
+  margin-top: 0;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media {
+  position: relative;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media a {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media input.ci-uploaded-url {
+  padding-right: 70px;
+}
+
+.elementor-control fieldset.ci-collapsible {
+  display: none;
+}
+
+.exclude-category {
+  height: 90px;
+  padding: 5px;
+  border: 1px solid #E5E5E5;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.exclude-category ul {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+select[readonly] {
+  background-color: blue;
+}
+
+.elementor-control fieldset.ci-repeating-fields {
+  border: none;
+}

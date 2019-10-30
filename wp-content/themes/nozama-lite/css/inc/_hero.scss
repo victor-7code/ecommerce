@@ -1,0 +1,272 @@
+/* -----------------------------------------
+	04. Hero Area
+----------------------------------------- */
+
+/* Basic Styles
+=================================== */
+.page-hero {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 60px 0;
+	background-color: $darker-background;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: $white;
+	height: $hero-height-xl;
+
+	.container {
+		@include media-breakpoint-down(xs) {
+			width: 100%;
+		}
+	}
+
+	// Overlay color, apply background color here
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 12;
+		background-color: rgba($text-color-dark, .4);
+	}
+
+	.slick-initialized & {
+		display: flex;
+	}
+
+	.btn {
+		margin-top: 25px;
+	}
+
+	@include media-breakpoint-down(lg) {
+		height: $hero-height-lg;
+	}
+
+	@include media-breakpoint-down(md) {
+		height: $hero-height-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		height: $hero-height-sm;
+	}
+}
+
+.page-hero-lg {
+	overflow: hidden;
+	height: $hero-home-height-lg;
+
+	@include media-breakpoint-down(md) {
+		height: $hero-home-height-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		height: $hero-home-height-sm;
+	}
+
+	.page-hero-slideshow & {
+		height: 100%;
+	}
+}
+
+.page-hero-align-center {
+	text-align: center;
+}
+
+.page-hero-align-left {
+	text-align: left;
+}
+
+.page-hero-align-right {
+	text-align: right;
+}
+
+.page-hero-align-top {
+	align-items: flex-start;
+
+	@include media-breakpoint-down(md) {
+		align-items: center;
+	}
+}
+
+.page-hero-align-middle {
+	align-items: center;
+}
+
+.page-hero-align-bottom {
+	align-items: flex-end;
+
+	@include media-breakpoint-down(md) {
+		align-items: center;
+	}
+}
+
+.page-hero-content {
+	position: relative;
+	z-index: 15;
+
+	@include media-breakpoint-up(lg) {
+		width: 50%;
+
+		.page-hero-align-center & {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.page-hero-align-right & {
+			margin-left: auto;
+		}
+	}
+}
+
+.page-hero-title {
+	color: inherit;
+	margin: 0;
+	font-size: 42px;
+	font-weight: 600;
+
+	@include media-breakpoint-down(md) {
+		font-size: 30px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 26px;
+	}
+}
+
+.page-hero-subtitle {
+	margin: 0;
+	font-size: 24px;
+	letter-spacing: -.01em;
+	line-height: 1.1;
+
+	@include media-breakpoint-down(md) {
+		font-size: 20px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 16px;
+		line-height: normal;
+	}
+}
+
+
+/* Slideshow
+=================================== */
+.page-hero-slideshow {
+	position: relative;
+	height: $hero-home-height-lg;
+	overflow: hidden;
+
+	@include media-breakpoint-down(md) {
+		height: $hero-home-height-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		height: $hero-home-height-sm;
+	}
+
+	.slick-list,
+	.slick-track {
+		height: 100%;
+	}
+
+	.slick-slide {
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 5;
+		}
+	}
+}
+
+.nozama-lite-slick-slider {
+	.slick-arrow {
+		@include slide-nav-arrow;
+		z-index: 1001;
+		display: inline-block;
+		background: transparent;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover {
+			color: $white;
+			background: $accent-color;
+			border-color: $accent-color;
+		}
+	}
+
+	.slick-next {
+		margin-left: 10px;
+
+		.fa {
+			position: relative;
+			left: 2px;
+		}
+	}
+
+	.slick-prev {
+		left: 15px;
+
+		.fa {
+			position: relative;
+			right: 1px;
+		}
+	}
+
+	.slick-dots {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+		width: 100%;
+		bottom: 10px;
+
+		li {
+			display: inline-block;
+			margin: 0 5px;
+		}
+
+		button {
+			position: relative;
+			text-indent: -999em;
+			padding: 0;
+			margin: 0;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background-color: $white;
+			border: 0;
+			box-shadow: none;
+			cursor: pointer;
+			opacity: .5;
+		}
+
+		.slick-active {
+			button {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.page-hero-slideshow-nav-wrap {
+	@include media-breakpoint-down(md) {
+		display: none;
+	}
+}
+
+.page-hero-slideshow-nav {
+	position: absolute;
+	right: $grid-gutter-width-base / 2;
+	bottom: 75px;
+	display: flex;
+}

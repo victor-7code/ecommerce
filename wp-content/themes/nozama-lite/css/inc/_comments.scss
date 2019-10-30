@@ -1,0 +1,173 @@
+/* -----------------------------------------
+	07. Comments
+----------------------------------------- */
+.comments-area {
+	margin: 65px 0 0;
+}
+
+.comments-title,
+.comment-reply-title {
+	margin-bottom: 30px;
+	font-size: 26px;
+}
+
+.comment-list,
+.commentlist {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+
+	.children {
+		list-style: none;
+
+		@include media-breakpoint-down(sm) {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.comment-body {
+		margin-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	> .comment {
+		&:first-child {
+			> .comment-body {
+				border-top: 0;
+				padding-top: 0;
+			}
+		}
+	}
+}
+
+.post-comments {
+	margin: 0 0 45px;
+}
+
+.comment-author {
+	.fn {
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.avatar {
+		width: 80px;
+		height: 80px;
+		float: left;
+		margin: 0 15px 15px 0;
+		overflow: visible;
+		border-radius: 3px;
+
+		@include media-breakpoint-down(xs) {
+			display: none;
+		}
+	}
+}
+
+.comment-content {
+	overflow: hidden;
+	zoom: 1;
+
+	@include media-breakpoint-up(md) {
+		min-height: 50px;
+	}
+
+	ul,
+	ol {
+		margin: 30px 0;
+		padding-left: 25px;
+
+		ul, ol {
+			margin: 0;
+		}
+	}
+
+	blockquote {
+		margin: 35px 0 0;
+	}
+}
+
+.comment-metadata {
+	font-size: 14px;
+	margin: 0 0 5px;
+
+	a {
+		color: $text-color-light;
+	}
+}
+
+.comment-reply-link {
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 4px 10px;
+	margin-left: 94px;
+	height: auto;
+	width: auto;
+
+	@include media-breakpoint-down(sm) {
+		margin: 0;
+	}
+}
+
+.bypostauthor {
+	> article {
+		.fn {
+			&::before {
+				@include font-awesome(\f005);
+				margin: 0 2px 0 -2px;
+				position: relative;
+				top: -1px;
+				font-size: 11px;
+			}
+		}
+	}
+}
+
+.comment-respond {
+	margin-top: 50px;
+}
+
+#cancel-comment-reply-link {
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+.form-allowed-tags,
+.comment-notes {
+	font-size: 14px;
+	line-height: 1.5;
+	opacity: .75;
+}
+
+.form-submit {
+	margin-bottom: 0;
+}
+
+.no-comments {
+	border: 1px solid $border-color;
+	padding: 15px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.comment-form-cookies-consent {
+	line-height: normal;
+	display: flex;
+
+	label {
+		display: inline-block;
+		margin: 0 0 0 8px;
+	}
+}
+
+.comment-form {
+	> p {
+		margin: 0 0 20px;
+	}
+
+	.form-submit {
+		margin-top: 30px;
+	}
+}
