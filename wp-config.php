@@ -22,7 +22,6 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'heroku_5b7109d6191879f' );
 
-
 /** MySQL database username */
 define( 'DB_USER', 'b174104377e639' );
 
@@ -33,7 +32,7 @@ define( 'DB_PASSWORD', 'af7a6322' );
 define( 'DB_HOST', 'eu-cdbr-west-02.cleardb.net' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -47,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '=S~Nv&- AJRO.Tq+<l,pbpdFcf*SXQzz;@[D]Q*L.DA8cJbOmOo193M9Cn-r<|H|' );
-define( 'SECURE_AUTH_KEY',  'i DCPixs3lKE;/~pYjPHd:?$8TQ4lO=!Gd@H)HZVyrn;;;YC#CLz}T2I^%=jL1tB' );
-define( 'LOGGED_IN_KEY',    'fjQxDXn+l`YWgoNB1aY_-YgtzcCb[Mg2`f-K:JNrMuBA>>Vr0yi|(vLpXR9HrjVL' );
-define( 'NONCE_KEY',        'QH:K%[Xm#NoZmb;E0{]_abVymq?@[XY?}Kk`4D8(1-NF0Fz4iHWEQT6W9hAig+8O' );
-define( 'AUTH_SALT',        'dd[)rI1X+5SgKM-a5]6{8KxdKwvXj5-m[VY0ss`9quY$#>:$4NBC3HsN%egJH6mA' );
-define( 'SECURE_AUTH_SALT', 'BBqjc&lqol7UNWV%0vrfK-3?]+`l2Y1Xs{LfM`Bt)p4CJ|ySR.v)Zr5tq]M`3m!.' );
-define( 'LOGGED_IN_SALT',   '5yNdr<}]A>/{-0mGy9`=|LRtX:]r|9L}#.<h61,z!%b4y~/ AY(,!}%%XT/CL%k&' );
-define( 'NONCE_SALT',       'j#nCe|kc &}D~-KTr1,=s/phKe;OgSOK^<Z=r4EO0?B|W*$m(:iGI^!QdpA/0(vW' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
@@ -65,7 +64,6 @@ define( 'NONCE_SALT',       'j#nCe|kc &}D~-KTr1,=s/phKe;OgSOK^<Z=r4EO0?B|W*$m(:i
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
-define('FS_METHOD', 'direct');
 
 /**
  * For developers: WordPress debugging mode.
